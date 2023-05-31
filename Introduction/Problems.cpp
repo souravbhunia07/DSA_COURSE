@@ -59,6 +59,5 @@ int main()
         cout << "Sorry, your guess is incorrect. The target number is: " << target << endl;
     }
     
-
     return 0;
 }

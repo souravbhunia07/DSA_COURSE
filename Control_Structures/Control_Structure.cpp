@@ -95,7 +95,49 @@ int main()
         int result = number * k;
         cout << number << " * " << k << " = " << result << endl;
         k++;
-    } while (k <= 10);   
+    } while (k <= 10);  
+
+    //  program to determine the day of the week based on a numeric value using switch statement.
+
+    int day;
+
+    cout << "Enter a numeric value (1-7) representing a day of the week: ";
+    cin >> day;
+
+    switch (day)
+    {
+        case 1:
+            cout << "Monday\n";
+            break;
+
+        case 2:
+        cout << "Tuesday\n";
+        break;
+
+        case 3:
+        cout << "Wednessday\n";
+        break;
+
+        case 4:
+        cout << "Thursday\n";
+        break;
+
+        case 5:
+        cout << "Friday\n";
+        break;
+
+        case 6:
+        cout << "Saturday\n";
+        break;
+
+        case 7:
+        cout << "Sunday\n";
+        break;
+        
+        default:
+            cout << "Invalid input. Please enter a value between 1 and 7.\n";
+            break;
+    }
 
     return 0;
 }
