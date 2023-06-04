@@ -97,8 +97,9 @@ int main()
         k++;
     } while (k <= 10);  
 
+    // SWITCH-CASE STATEMENTS
+    
     //  program to determine the day of the week based on a numeric value using switch statement.
-
     int day;
 
     cout << "Enter a numeric value (1-7) representing a day of the week: ";
